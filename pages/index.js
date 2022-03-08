@@ -12,20 +12,29 @@ export default function Home() {
       <section name="header">
         <h1 className="title">
           
-          See What's happening in
-          <a href="https://war.ukraine.ua/"> Ukraine WAR</a>
-                   
+          See what's happening in 
+          <button >
+            <span class="button-content">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0H24V24H0z" fill="none"></path><path d="M12.001 4.529c2.349-2.109 5.979-2.039 8.242.228 2.262 2.268 2.34 5.88.236 8.236l-8.48 8.492-8.478-8.492c-2.104-2.356-2.025-5.974.236-8.236 2.265-2.264 5.888-2.34 8.244-.228z" fill="currentColor"></path></svg>
+              <a href="https://war.ukraine.ua/"> Ukraine WAR</a>
+            </span>
+          </button>          
         </h1>
         <div >
          <img className='background' src='https://war.ukraine.ua/wp-content/uploads/2022/03/pic.jpg'/>
         </div>
         <p className="description">
-          This website have the scope to inform about <b>Ukraine New's</b> and NOT by the Desinformation Services from Russian Federation.
+          This website have the scope to inform about <b>Ukraine New's</b> 
           <br></br>
-          You will find here all official links, <b>THAT YOU CAN TRUST</b> and not being desinformed by Putin Regime of information SUPPRESSION!
+          You will find here all official links, <b>THAT YOU CAN TRUST</b>
           <br></br>
-          <a href="https://war.ukraine.ua/why-is-russia-invading-ukraine/"> <b> WHY ALL THIS INVASION?</b></a>
-          
+          <button >
+            <span class="button-content">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0H24V24H0z" fill="none"></path><path d="M12.001 4.529c2.349-2.109 5.979-2.039 8.242.228 2.262 2.268 2.34 5.88.236 8.236l-8.48 8.492-8.478-8.492c-2.104-2.356-2.025-5.974.236-8.236 2.265-2.264 5.888-2.34 8.244-.228z" fill="currentColor"></path></svg>
+              <a href="https://war.ukraine.ua/why-is-russia-invading-ukraine/"> WHY THIS INVASION?</a>
+            </span>
+          </button>  
+         
         </p>
       
         
@@ -76,9 +85,9 @@ export default function Home() {
             href="https://standwithukraine.live/peace-protests/"
             className="card"
           >
-            <h3>Partecipate in <b>PEACE PROTESTS</b> &rarr;</h3>
+            <h3>Participate in <b>PEACE PROTESTS</b> &rarr;</h3>
             <p>
-            ind your nearest demonstration and show your support.
+            Find your nearest demonstration and show your support.
               
             </p>
     
@@ -160,6 +169,7 @@ export default function Home() {
           color: #0070f3;
           text-decoration: none;
         }
+     
 
         .title a:hover,
         .title a:focus,
@@ -242,6 +252,39 @@ export default function Home() {
             flex-direction: column;
           }
         }
+
+        button {
+          font-size: 50px;
+          font-family: inherit;
+          font-weight: 700;
+          padding: 10px;
+          border-radius: 20px;
+          border: none;
+          color: black;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+          background: linear-gradient(0deg, rgba(255,213,0,1) 0%, rgba(255,213,0,1) 47%, rgba(0,91,187,1) 47%, rgba(0,91,187,1) 100%);
+         }
+         
+         button .button-content {
+          display: flex;
+          align-items: center;
+          background: white;
+          padding: 0.7em 1.5em;
+          padding-left: 1.2em;
+          border-radius: 16px;
+         }
+         
+         button svg {
+          width: 30px;
+          height: 50px;
+          margin-right: 6px;
+          color: #ff0000;
+          transition: transform 0.3s;
+         }
+         
+         button:hover svg {
+          transform: scale(1.5);
+         }
       `}</style>
 
       <style jsx global>{`
