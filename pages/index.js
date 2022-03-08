@@ -4,19 +4,21 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Help Ukraine Information!</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Russia Invaded Ukraine!</title>
+        <link rel="icon" href="/flag.jpg" />
       </Head>
 
       <main >
       <section name="header">
         <h1 className="title">
           
-          See What's heppening in
-          <a href="https://war.ukraine.ua/"> Ukraine</a>
+          See What's happening in
+          <a href="https://war.ukraine.ua/"> Ukraine WAR</a>
                    
         </h1>
-
+        <div >
+         <img className='background' src='https://war.ukraine.ua/wp-content/uploads/2022/03/pic.jpg'/>
+        </div>
         <p className="description">
           This website have the scope to inform about <b>Ukraine New's</b> and NOT by the Desinformation Services from Russian Federation.
           <br></br>
@@ -25,9 +27,7 @@ export default function Home() {
           <a href="https://war.ukraine.ua/why-is-russia-invading-ukraine/"> <b> WHY ALL THIS INVASION?</b></a>
           
         </p>
-        <div >
-         <img className='background' src='https://war.ukraine.ua/wp-content/uploads/2022/03/pic.jpg'/>
-        </div>
+      
         
       </section>
       
@@ -94,8 +94,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className="logo" />
+          <img src="/flag.jpg" alt="Ukraine" className="logo" />
         </a>
       </footer>
 
