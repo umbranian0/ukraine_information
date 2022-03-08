@@ -22,7 +22,7 @@ export default function Home() {
         <p className="description">
           This website have the scope to inform about <b>Ukraine New's</b> and NOT by the Desinformation Services from Russian Federation.
           <br></br>
-          You will find here all official links, <b>THAT YOU CAN TRUST</b> and not being desinformed by Putin information SUPPRESSION!
+          You will find here all official links, <b>THAT YOU CAN TRUST</b> and not being desinformed by Putin Regime of information SUPPRESSION!
           <br></br>
           <a href="https://war.ukraine.ua/why-is-russia-invading-ukraine/"> <b> WHY ALL THIS INVASION?</b></a>
           
@@ -78,9 +78,9 @@ export default function Home() {
             href="https://war.ukraine.ua/photos/"
             className="card"
           >
-            <h3>All Photos from Ukraine <icon>hearth</icon> &rarr;</h3>
+            <h3>All Photos from Ukraine &rarr;</h3>
             <p>
-              All SAD but True Photo's about what's happening in Ukraine right now! 
+              All <b>SAD</b> but True Photo's about what's happening in Ukraine right now! 
             </p>
           </a>
          
