@@ -47,7 +47,7 @@ export default function Home() {
 
           <a href="https://war.ukraine.ua/donate/" className="card">
             <h3>Donate to Ukraine's Defenders &rarr;</h3>
-            <p>Donate to the Armed Forces of Ukraine and the Ministry of Defenсe of Ukraine!</p>
+            <p>Donate to the Armed Forces of Ukraine and the Ministry of Defence of Ukraine!</p>
             <li>Bank Transfer</li>
             <li>Crypto Payments Wallets</li>
             <li>Others...</li>
