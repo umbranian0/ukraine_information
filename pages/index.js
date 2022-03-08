@@ -64,7 +64,7 @@ export default function Home() {
             href="https://help.unhcr.org/ukraine/"
             className="card"
           >
-            <h3>UNHCR ukraine Donations <icon>hearth</icon> &rarr;</h3>
+            <h3>UNHCR ukraine Donations  &rarr;</h3>
             <p>
             This website provides relevant information for asylum seekers and refugees.
               
@@ -72,7 +72,17 @@ export default function Home() {
             {//<img src='https://help.unhcr.org/ukraine/wp-content/uploads/sites/36/2022/03/Are-you-refugee-from-Ukraine-1-768x768.png'/>
             }
           </a>
-
+          <a
+            href="https://standwithukraine.live/peace-protests/"
+            className="card"
+          >
+            <h3>Partecipate in <b>PEACE PROTESTS</b> &rarr;</h3>
+            <p>
+            ind your nearest demonstration and show your support.
+              
+            </p>
+    
+          </a>
         
           <a
             href="https://war.ukraine.ua/photos/"
