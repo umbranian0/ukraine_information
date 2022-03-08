@@ -22,7 +22,7 @@ export default function Home() {
           <br></br>
           You will find here all official links, <b>THAT YOU CAN TRUST</b> and not being desinformed by Putin information SUPPRESSION!
           <br></br>
-          <a href="https://war.ukraine.ua/why-is-russia-invading-ukraine/"> WHY ALL THIS INVASION?</a>
+          <a href="https://war.ukraine.ua/why-is-russia-invading-ukraine/"> <b> WHY ALL THIS INVASION?</b></a>
           
         </p>
         <div >
