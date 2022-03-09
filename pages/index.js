@@ -92,7 +92,22 @@ export default function Home() {
             </p>
     
           </a>
-        
+          
+          <a
+            href="https://wehelpukraine.org/"
+            className="card"
+          >
+            <h3>We Help Ukraine  <b>Platform</b> &rarr;</h3>
+            <p>
+            This platform was created for people that Need help.
+            <br>            </br>
+            Also for people that can help with hosting Refugees from ukraine
+            <br></br>
+            Or any other help that you can check here 
+            </p>
+    
+          </a>
+
           <a
             href="https://war.ukraine.ua/photos/"
             className="card"
