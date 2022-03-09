@@ -2,13 +2,13 @@ import Head from 'next/head'
 
 export default function Home() {
   return (
-    <div className="container">
+    <div className="container background">
       <Head>
         <title>Russia Invaded Ukraine!</title>
         <link rel="icon" href="/flag.jpg" />
       </Head>
 
-      <main className='background'>
+      <main>
         <h1 className="title">
           
           See what's happening! 
