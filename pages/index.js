@@ -8,15 +8,16 @@ export default function Home() {
         <link rel="icon" href="/flag.jpg" />
       </Head>
 
-      <main >
-      <section name="header">
+      <main className='background'>
         <h1 className="title">
           
-          See what's happening in 
+          See what's happening! 
+          <br>
+          </br>
           <button >
             <span class="button-content">
               <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0H24V24H0z" fill="none"></path><path d="M12.001 4.529c2.349-2.109 5.979-2.039 8.242.228 2.262 2.268 2.34 5.88.236 8.236l-8.48 8.492-8.478-8.492c-2.104-2.356-2.025-5.974.236-8.236 2.265-2.264 5.888-2.34 8.244-.228z" fill="currentColor"></path></svg>
-              <a href="https://war.ukraine.ua/"> Ukraine WAR</a>
+              <a href="https://war.ukraine.ua/why-is-russia-invading-ukraine/"> HELP UKRAINE</a>
             </span>
           </button>          
         </h1>
@@ -28,58 +29,52 @@ export default function Home() {
           <br></br>
           You will find here all official links, <b>THAT YOU CAN TRUST</b>
           <br></br>
-          <button >
-            <span class="button-content">
-              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0H24V24H0z" fill="none"></path><path d="M12.001 4.529c2.349-2.109 5.979-2.039 8.242.228 2.262 2.268 2.34 5.88.236 8.236l-8.48 8.492-8.478-8.492c-2.104-2.356-2.025-5.974.236-8.236 2.265-2.264 5.888-2.34 8.244-.228z" fill="currentColor"></path></svg>
-              <a href="https://war.ukraine.ua/why-is-russia-invading-ukraine/"> WHY THIS INVASION?</a>
-            </span>
-          </button>  
+        <h1 className='title'>
+         <a href="https://war.ukraine.ua/why-is-russia-invading-ukraine/"> WHY THIS INVASION?</a>
+        </h1>
+           
          
         </p>
-      
-        
-      </section>
-      
-       <section name="body">
+    
         <div className="grid">
           <a href="https://war.ukraine.ua/support-ukraine/" className="card">
             <h3>Support Ukraine &rarr;</h3>
             <p>If you wish to make some Donations, you can find all what's needed at current time by Ukraine in diferent forms:
-
-            </p>
             <li>Donate to Defenders</li>
             <li>Humanitarian Aid</li>
             <li>Host Ukranian refugees</li>
             <li>Others...</li>
+            </p>
+            
             
           </a>
 
           <a href="https://war.ukraine.ua/donate/" className="card">
             <h3>Donate to Ukraine's Defenders &rarr;</h3>
-            <p>Donate to the Armed Forces of Ukraine and the Ministry of Defence of Ukraine!</p>
+            <p>Donate to the Armed Forces of Ukraine and the Ministry of Defence of Ukraine!
+            
             <li>Bank Transfer</li>
             <li>Crypto Payments Wallets</li>
             <li>Others...</li>
+            </p>
+            
           </a>
 
           <a
-            href="https://fightforua.org/"
-            className="card"
+            href="https://fightforua.org/"  className="card"
           >
             <h3>Join The Foreign Legion &rarr;</h3>
             <p>Anyone who wants to join the defense of security in Europe and the world can come and stand side by side with the Ukrainians against the invaders of the 21st century.</p>
           </a>
           <a
-            href="https://help.unhcr.org/ukraine/"
-            className="card"
+            href="https://help.unhcr.org/ukraine/" className="card"
           >
             <h3>UNHCR ukraine Donations  &rarr;</h3>
             <p>
             This website provides relevant information for asylum seekers and refugees.
               
             </p>
-            {//<img src='https://help.unhcr.org/ukraine/wp-content/uploads/sites/36/2022/03/Are-you-refugee-from-Ukraine-1-768x768.png'/>
-            }
+            
           </a>
           <a
             href="https://standwithukraine.live/peace-protests/"
@@ -119,7 +114,7 @@ export default function Home() {
           </a>
          
         </div> 
-        </section>
+      
       </main>
 
       <footer>
@@ -133,6 +128,9 @@ export default function Home() {
       </footer>
 
       <style jsx>{`
+        .grid p li{
+          padding:10px;
+        }
         .container {
           min-height: 100vh;
           padding: 0 0.5rem;
@@ -142,10 +140,15 @@ export default function Home() {
           align-items: center;
         }
         .background {
-          width:100%;
-          height:100%;
-          position:flex;
-          background: url('https://war.ukraine.ua/wp-content/uploads/2022/03/pic.jpg') no-repeat;
+          font-size: 50px;
+          font-family: inherit;
+          font-weight: 700;
+          padding: 10px;
+          border-radius: 20px;
+          border: none;
+          color: black;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+          background: linear-gradient(0deg, rgba(255,213,0,1) 0%, rgba(255,213,0,1) 47%, rgba(0,91,187,1) 47%, rgba(0,91,187,1) 100%);
         }
         main {
           padding: 5rem 0;
@@ -179,9 +182,9 @@ export default function Home() {
           color: inherit;
           text-decoration: none;
         }
-
+        
         .title a {
-          color: #0070f3;
+          color: Black;
           text-decoration: none;
         }
      
@@ -224,7 +227,7 @@ export default function Home() {
           flex-wrap: wrap;
 
           max-width: 800px;
-          margin-top: 3rem;
+          margin-top: 5rem;
         }
 
         .card {
@@ -274,7 +277,8 @@ export default function Home() {
           font-weight: 700;
           padding: 10px;
           border-radius: 20px;
-          border: none;
+          border: 2;
+          border-color:black;
           color: black;
           box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
           background: linear-gradient(0deg, rgba(255,213,0,1) 0%, rgba(255,213,0,1) 47%, rgba(0,91,187,1) 47%, rgba(0,91,187,1) 100%);
