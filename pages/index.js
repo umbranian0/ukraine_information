@@ -8,22 +8,30 @@ export default function Home() {
         <link rel="icon" href="/flag.jpg" />
       </Head>
 
-      <main>
+      <main >
+        <div className='navimage'>
+          <nav >
+            <img src="https://war.ukraine.ua/wp-content/uploads/2022/03/pic.jpg"  layout="fill" className={'image'} /> 
+          </nav>  
+        </div>
+        
+        
+        <div>
+             
         <h1 className="title">
-          
           See what's happening! 
           <br>
           </br>
           <button >
             <span class="button-content">
               <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0H24V24H0z" fill="none"></path><path d="M12.001 4.529c2.349-2.109 5.979-2.039 8.242.228 2.262 2.268 2.34 5.88.236 8.236l-8.48 8.492-8.478-8.492c-2.104-2.356-2.025-5.974.236-8.236 2.265-2.264 5.888-2.34 8.244-.228z" fill="currentColor"></path></svg>
-              <a href="https://war.ukraine.ua/why-is-russia-invading-ukraine/"> HELP UKRAINE</a>
+              <a href="https://war.ukraine.ua/why-is-russia-invading-ukraine/">HELP UKRAINE</a>
             </span>
-          </button>          
+          </button> 
+                
         </h1>
-        <div >
-         <img className='background' src='https://war.ukraine.ua/wp-content/uploads/2022/03/pic.jpg'/>
-        </div>
+        
+        
         <p className="description">
           This website have the scope to inform about <b>Ukraine New's</b> 
           <br></br>
@@ -114,7 +122,7 @@ export default function Home() {
           </a>
          
         </div> 
-      
+      </div>   
       </main>
 
       <footer>
@@ -131,25 +139,27 @@ export default function Home() {
         .grid p li{
           padding:10px;
         }
-        .container {
-          min-height: 100vh;
-          padding: 0 0.5rem;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
+        .navimage{
+          position: relative;
+          width: 100%;
+         
+              
         }
+          .image {
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+          }
+        
         .background {
           font-size: 50px;
           font-family: inherit;
-          font-weight: 700;
           padding: 10px;
-          border-radius: 20px;
-          border: none;
+          
           color: black;
           box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
           background: linear-gradient(0deg, rgba(255,213,0,1) 0%, rgba(255,213,0,1) 47%, rgba(0,91,187,1) 47%, rgba(0,91,187,1) 100%);
-        }
+       }
         main {
           padding: 5rem 0;
           flex: 1;
@@ -159,6 +169,14 @@ export default function Home() {
           align-items: center;
         }
 
+        .container {
+          min-height: 100vh;
+          padding: 0 0.5rem;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
         footer {
           width: 100%;
           height: 100px;
@@ -166,6 +184,7 @@ export default function Home() {
           display: flex;
           justify-content: center;
           align-items: center;
+          background-color:white;
         }
 
         footer img {
